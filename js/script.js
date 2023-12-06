@@ -78,3 +78,42 @@ squadre.forEach((elem) =>{
 /* MAP PER STAMPARE SOLO NOME E FALLISUBITI */
 const pippo = squadre.map(({ nome, fallisubiti }) => ({nome, fallisubiti}))
 console.log(pippo)
+
+
+/* SNACK 3 */
+let capi = [
+    {
+        name : "Poppy",
+        type : "tshirt",
+        color: "red"
+    },
+    {
+        name : "Jumping",
+        type : "occhiali",
+        color: "blue"
+    },
+    {
+        name : "CrissCross",
+        type : "scarpe",
+        color: "black"
+    },
+    {
+        name : "Jenny",
+        type : "borsa",
+        color: "pink"
+    },
+]
+console.log(capi)
+function randomLetter(){
+    const characters = 'abcdefghijklmnopqrstuvwxyz';
+    return characters[Math.floor(Math.random() * characters.length)];
+}
+let randomLetters = []
+for( let i = 0; i< capi.length; i++){
+    let letters = randomLetter()
+    randomLetters.push(letters)
+  
+}
+console.log(randomLetters)
+
+
