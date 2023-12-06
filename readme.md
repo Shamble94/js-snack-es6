@@ -25,3 +25,13 @@ Stampare in pagina oltre che in console!
 SNACK 1
 1 - creiamo un oggetto contenente le informazioni riguardanti le bici.
 2 - assegnare ad una variabile un peso fisso e confrontarla con il peso delle bici, sostituendolo man mano che si trova un peso minore per poi stamparlo in console.
+
+
+SNACK 2
+1 - creiamo array di squadre di calcio con nome, punti fatti e falli subiti.
+2 - assegniamo a punti fatti e falli subiti un numero generato randomicamente.
+3 - tramite deconstructuring creiamo un nuovo array che visualizza solo nomi e falli subiti
+
+SNACK 3
+1 - Creiamo una funzione per generare randomicamente una lettera dell'alfabeto
+2 - andiamo ad aggiungere il risultato della funzione all'array iniziale
