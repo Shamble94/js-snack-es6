@@ -108,12 +108,14 @@ function randomLetter(){
     const characters = 'abcdefghijklmnopqrstuvwxyz';
     return characters[Math.floor(Math.random() * characters.length)];
 }
-let randomLetters = []
-for( let i = 0; i< capi.length; i++){
-    let letters = randomLetter()
-    randomLetters.push(letters)
-  
-}
-console.log(randomLetters)
 
+
+const capiPosition = capi.map( (elem) => (
+    {    
+    ...elem,
+    position: randomLetter()
+    }
+));
+
+console.log(capiPosition)
 
