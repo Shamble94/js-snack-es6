@@ -1,3 +1,4 @@
+/* DICHIARAZIONE ARRAY BICI CON NOME E PESO */
 let bici = [
     {
         nome : "pino",
@@ -21,13 +22,16 @@ let bici = [
     }
 ]
 
+/* DICHIARAZIONE VARIABILE PESO MINIMO */
 let pesoMin = bici[0];
-/* const [peso] = bici; */
+
+/* CICLO FOR PER CONFRONTARE I PESI DELLE BICI */
 for (i = 1; i < bici.length; i++){
     if (bici[i].peso < pesoMin.peso){
         pesoMin = bici[i]
     }
     
 }
+/* DECONSTRUCTURING DELL'ARRAY PESO */
 const {peso} = pesoMin
 console.log(peso)
