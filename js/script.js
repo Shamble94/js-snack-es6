@@ -75,9 +75,14 @@ squadre.forEach((elem) =>{
     return elem
 })
 
-/* MAP PER STAMPARE SOLO NOME E FALLISUBITI */
-const pippo = squadre.map(({ nome, fallisubiti }) => ({nome, fallisubiti}))
-console.log(pippo)
+let newArray = []
+
+squadre.forEach((elem) =>   {
+    let {nome, fallisubiti } = elem;
+
+    newArray.push({nome, fallisubiti})
+ })
+    console.log(newArray)
 
 
 /* SNACK 3 */
