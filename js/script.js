@@ -115,12 +115,14 @@ function randomLetter(){
 }
 
 
-const capiPosition = capi.map( (elem) => (
-    {    
+const capiPosition = capi.map( (elem) => {
+    let article = {    
     ...elem,
     position: randomLetter()
     }
-));
+
+    return article
+});
 
 console.log(capiPosition)
 
