@@ -7,7 +7,7 @@ let bici = [
     },
     {
         nome: "piero",
-        peso: 120
+        peso: 33
     },
     {
         nome: "carlo",
@@ -34,8 +34,8 @@ for (i = 1; i < bici.length; i++){
     
 }
 /* DECONSTRUCTURING DELL'ARRAY PESO */
-const {peso} = pesoMin
-console.log(peso)
+const {name,peso} = pesoMin
+console.log(pesoMin)
 
 
 
