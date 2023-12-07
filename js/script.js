@@ -34,8 +34,8 @@ for (i = 1; i < bici.length; i++){
     
 }
 /* DECONSTRUCTURING DELL'ARRAY PESO */
-const {name,peso} = pesoMin
-console.log(pesoMin)
+const {nome,peso} = pesoMin
+console.log(`La bici leggera è ${nome} e pesa ${peso}`)
 
 
 
